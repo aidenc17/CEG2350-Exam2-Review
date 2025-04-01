@@ -26,11 +26,6 @@ b) To establish a secure, encrypted connection to remote systems
 c) To copy files between systems  
 d) To back up system files  
 
-**Q7: What is the command to establish an SSH connection to a server?**  
-a) ssh 192.168.0.0@ubuntu 
-b) ssh ubuntu@192.168.0.0
-c) ssh-server  
-d) connect ssh ubuntu@192.168.0.0
 
 **Q8: Which of the following is a requirement for SSH authentication?**  
 a) Password encryption  
@@ -55,11 +50,6 @@ b) mkdir -new
 c) touch  
 d) newdir  
 
-**Q12: What command is used to remove a directory in Linux?**  
-a) rm  
-b) del  
-c) rmdir  
-d) delete  
 
 **Q13: What command is used to remove a file in Linux?**  
 a) rm  
@@ -83,23 +73,6 @@ b) Executes a command
 c) Reads a file  
 d) Creates a new file  
 
-**Q18: What bash command is used to check if a file exists?**  
-a) test -e file  
-b) check file  
-c) file exists  
-d) if file -exists  
-
-**Q19: Which of the following is used to read user input in a bash script?**  
-a) read  
-b) get  
-c) input  
-d) prompt  
-
-**Q21: Which loop in bash will execute a block of code until a condition is met?**  
-a) for loop  
-b) while loop  
-c) until loop  
-d) repeat loop  
 
 ---
 
@@ -194,3 +167,55 @@ d) Deletes a file
 15. Print the names of employees who joined after 2020.
 
 ---
+# Disk, Partition, and Filesystem Practice Questions
+
+**Keep in mind I have not been to class with you! These are questions to provoke thought and get the wheels tunring!**
+**If it does not sound like somehting you covered, you probably haven't!!**
+
+These are all based off my notes when I took the course!
+
+## **Disks & Devices**
+1. What is the primary function of a disk?
+2. How does an HDD differ from an SSD in terms of operation?
+5. What command would you use to **list all block devices** on a Linux system?
+
+## **MBR (Master Boot Record)**
+6. What is the purpose of an MBR?
+7. Why is MBR not ideal in terms of corruption?
+8. How many primary partitions can an MBR disk have?
+9. What is the maximum disk size that MBR supports?
+
+## **GPT (GUID Partition Table)**
+11. What is the maximum storage capacity GPT supports?
+12. How does GPT improve redundancy compared to MBR?
+13. Where is the bootloader stored in a GPT partitioned system?
+14. How does Windows allow users to view partitions with GPT?
+15. What tool would you use to manage GPT partitions on Linux?
+
+## **MBR vs GPT**
+16. Which partitioning scheme is best suited for BIOS-based systems?
+17. Why does GPT pair with UEFI better than MBR?
+18. What is a key advantage of GPT’s redundancy system?
+19. Which partitioning scheme supports partitions larger than 2TB?
+20. What command would you use to check if a disk uses MBR or GPT?
+
+## **Partition Management**
+26. What tool supports both MBR and GPT partitioning?
+27. What is the difference between `fdisk`, `gdisk`, and `parted`?
+28. Why does `parted` apply changes immediately, unlike `fdisk` and `gdisk`?
+29. What command initializes a new GPT partition table on a disk?
+30. How can you list all partitions on `/dev/xvda`?
+
+## **Storage & Measurement**
+31. How many bytes are in a kilobyte?
+32. Convert **5 TB** into **gigabytes**.
+33. How many megabytes are in **1 terabyte**?
+34. What is the smallest measurement of data?
+35. How does a file system help organize stored data?
+
+## **File Systems**
+36. What is the root of a filesystem in Windows?
+37. How does Linux represent disk partitions like `/dev/xvda`?
+38. Name at least three filesystem types?
+40. What filesystem is standard for macOS?
+
