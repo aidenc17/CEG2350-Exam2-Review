@@ -26,18 +26,12 @@ b) To establish a secure, encrypted connection to remote systems
 c) To copy files between systems  
 d) To back up system files  
 
-**Q7: What is the command to establish an SSH connection to a server?**  
-a) ssh 192.168.0.0@ubuntu 
-b) ssh ubuntu@192.168.0.0
-c) ssh-server  
-d) connect ssh ubuntu@192.168.0.0
 
 **Q8: Which of the following is a requirement for SSH authentication?**  
 a) Password encryption  
 b) Public and private key pairs  
 c) Username and domain name 
 d) Static IP address
-
 
 ---
 
