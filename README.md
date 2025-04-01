@@ -208,8 +208,6 @@ These are all based off my notes when I took the course!
 
 ## **Storage & Measurement**
 31. How many bytes are in a kilobyte?
-32. Convert **5 TB** into **gigabytes**.
-33. How many megabytes are in **1 terabyte**?
 34. What is the smallest measurement of data?
 35. How does a file system help organize stored data?
 
