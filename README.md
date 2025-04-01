@@ -26,12 +26,18 @@ b) To establish a secure, encrypted connection to remote systems
 c) To copy files between systems  
 d) To back up system files  
 
+**Q7: What is the command to establish an SSH connection to a server?**  
+a) ssh 192.168.0.0@ubuntu 
+b) ssh ubuntu@192.168.0.0
+c) ssh-server  
+d) connect ssh ubuntu@192.168.0.0
 
 **Q8: Which of the following is a requirement for SSH authentication?**  
 a) Password encryption  
 b) Public and private key pairs  
 c) Username and domain name 
 d) Static IP address
+
 
 ---
 
@@ -156,5 +162,35 @@ a) Creates a new file
 b) Displays the content of a file  
 c) Copies a file  
 d) Deletes a file  
+
+---
+
+
+## Questions on `grep`, `sed` and `awk` are here to get you comfortable before the exam.
+**Feel free to use past notes or `man` pages on your terminal!!**
+
+**Use the `employees.csv` file located in this repo for the next questions.**
+
+
+### `grep` Questions:
+1. Find all employees in the "Engineering" department.
+2. Display lines containing "HR" employees.
+3. Find employees whose name contains "John".
+4. Show lines with a salary greater than 70000 (you may need to refine this after `grep` using `awk`).
+5. Search for employees who joined in the year 2019.
+
+### `sed` Questions:
+6. Replace "HR" with "Human Resources" in the dataset.
+7. Remove the "Marketing" department from the dataset.
+8. Add a "USD" suffix to all salary values.
+9. Swap the "Name" and "Department" columns (assume a simple text transformation).
+10. Remove the header row from the file.
+
+### `awk` Questions:
+11. Print only the names of the employees.
+12. Show the name and salary of employees from the "Engineering" department.
+13. Calculate and print the average salary of all employees.
+14. Find the highest salary in the dataset.
+15. Print the names of employees who joined after 2020.
 
 ---
