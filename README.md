@@ -319,12 +319,6 @@ These are all based off my notes when I took the course!
    - [ ] `/home`  
    - [ ] `E:\`  
 
-25. **How does Linux represent disk partitions like /dev/xvda?**  
-   - [ ] As drive letters (C:, D:, E:)  
-   - [ ] Using device files under `/dev/`  
-   - [ ] With a graphical partition manager only  
-   - [ ] As hidden directories  
-
 26. **Name at least three filesystem types.**  
    - [ ] NTFS, FAT32, ext4  
    - [ ] XML, SQL, CSV  
