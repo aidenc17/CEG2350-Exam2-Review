@@ -4,33 +4,33 @@
 ## 1. Shells:
 
 **Q1: Which of the following is a shell used in Linux?**  
-- [ ] PowerShell
-- [ ] bash
-- [ ] cmd
-- [ ]  Z shell  
+   - [ ] PowerShell
+   - [ ] bash
+   - [ ] cmd
+   - [ ]  Z shell  
 
 **Q2: Which shell is commonly used in Windows for command-line operations?**  
-- [ ] zsh
-- [ ] bash
-- [ ] PowerShell
-- [ ] sh  
+   - [ ] zsh
+   - [ ] bash
+   - [ ] PowerShell
+   - [ ] sh  
 
 ---
 
 ## 2. SSH (Secure Shell):
 
 **Q6: What is the primary use of SSH?**  
-- [ ] To browse the internet securely
-- [ ] To establish a secure, encrypted connection to remote systems
-- [ ] To copy files between systems
-- [ ] To back up system files  
+   - [ ] To browse the internet securely
+   - [ ] To establish a secure, encrypted connection to remote systems
+   - [ ] To copy files between systems
+   - [ ] To back up system files     
 
 
 **Q8: Which of the following is a requirement for SSH authentication?**  
-- [ ] Password encryption
-- [ ] Public and private key pairs
-- [ ] Username and domain name
-- [ ] Static IP address
+   - [ ] Password encryption
+   - [ ] Public and private key pairs
+   - [ ] Username and domain name
+   - [ ] Static IP address
 
 
 ---
@@ -38,29 +38,29 @@
 ## 3. Files, Directories, and OS Structure:
 
 **Q10: What command is used to list files and directories in Linux?**  
-- [ ] ls
-- [ ] dir
-- [ ] list
-- [ ] show  
+   - [ ] ls
+   - [ ] dir
+   - [ ] list
+   - [ ] show  
 
 **Q11: What command creates a new directory in Linux?**  
-- [ ] mkdir
-- [ ] mkdir -new  
-- [ ] touch
-- [ ] newdir  
+   - [ ] mkdir
+   - [ ] mkdir -new  
+   - [ ] touch
+   - [ ] newdir  
 
 
 **Q13: What command is used to remove a file in Linux?**  
-- [ ] rm
-- [ ] erase
-- [ ] del
-- [ ] remove  
+   - [ ] rm
+   - [ ] erase
+   - [ ] del
+   - [ ] remove  
 
 **Q14: Which command in Linux is used to copy files?**  
-- [ ] mv
-- [ ] cp
-- [ ] cat
-- [ ] ln 
+   - [ ] mv
+   - [ ] cp
+   - [ ] cat
+   - [ ] ln 
 
 ---
 
@@ -184,62 +184,62 @@
 ## 5. Git (Version Control):
 
 **Q23: What does the `git commit -m "message"` command do?**  
-a) Stages changes for commit  
-b) Commits staged changes with a descriptive message  
-c) Pushes committed changes to a remote repository  
-d) Creates a new branch 
+   - [ ] Stages changes for commit  
+   - [ ] Commits staged changes with a descriptive message  
+   - [ ] Pushes committed changes to a remote repository  
+   - [ ] Creates a new branch 
 
 **Q24: What command is used to check the status of a Git repository?**  
-a) git status  
-b) git check  
-c) git info  
-d) git logs  
+   - [ ] git status  
+   - [ ] git check  
+   - [ ] git info  
+   - [ ] git logs  
 
 **Q25: What does the `git pull` command do?**  
-a) Downloads and merges changes from a remote repository  
-b) Creates a new commit  
-c) Uploads local changes to the remote repository  
-d) Clones a remote repository  
+   - [ ] Downloads and merges changes from a remote repository  
+   - [ ] Creates a new commit  
+   - [ ] Uploads local changes to the remote repository  
+   - [ ] Clones a remote repository  
 
 **Q26: Which command would you use to stage files for commit in Git?**  
-a) git push  
-b) git stage  
-c) git add  
-d) git merge  
+   - [ ] git push  
+   - [ ] git stage  
+   - [ ] git add  
+   - [ ] git merge  
 
 **Q27: What does the `git clone` command do?**  
-a) Creates a new branch  
-b) Downloads a remote repository
-c) Commits changes to the repository  
-d) Adds files to the repository  
+   - [ ] Creates a new branch  
+   - [ ] Downloads a remote repository
+   - [ ] Commits changes to the repository  
+   - [ ] Adds files to the repository  
 
 ---
 
 ## 6. Additional Questions:
 
 **Q28: What is the default file extension for bash scripts?**  
-a) .txt  
-b) .sh  
-c) .bash  
-d) .bashscript  
+   - [ ] .txt  
+   - [ ] .sh  
+   - [ ] .bash  
+   - [ ] .bashscript  
 
 **Q29: What does the `chmod` command do in Linux?**  
-a) Changes the ownership of a file  
-b) Changes the permissions of a file  
-c) Moves a file to a new directory  
-d) Renames a file  
+   - [ ] Changes the ownership of a file  
+   - [ ] Changes the permissions of a file  
+   - [ ] Moves a file to a new directory
+   - [ ] Renames a file  
 
 **Q30: How can you make a bash script executable?**  
-a) chmod +x script.sh  
-b) bash script.sh  
-c) make script.sh executable  
-d) execute script.sh  
+   - [ ] chmod +x script.sh  
+   - [ ] bash script.sh  
+   - [ ] make script.sh executable  
+   - [ ] execute script.sh  
 
 **Q31: What does the `cat` command do in Linux?**  
-a) Creates a new file  
-b) Displays the content of a file  
-c) Copies a file  
-d) Deletes a file  
+   - [ ] Creates a new file  
+   - [ ] Displays the content of a file  
+   - [ ] Copies a file  
+   - [ ] Deletes a file  
 
 ---
 
