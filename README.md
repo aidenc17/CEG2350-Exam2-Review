@@ -1,5 +1,4 @@
-# Multiple Choice Quiz on Shells, SSH, Files, Scripting, and Git
-
+# Exam 2 Review
 ---
 
 ## 1. Shells:
