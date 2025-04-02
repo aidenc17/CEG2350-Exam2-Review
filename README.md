@@ -174,44 +174,167 @@ d) Deletes a file
 
 These are all based off my notes when I took the course!
 
-## **Disks & Devices**
-1. What is the primary function of a disk?
-2. How does an HDD differ from an SSD in terms of operation?
-5. What command would you use to **list all block devices** on a Linux system?
+# Disk Storage
+1. **What is the primary function of a disk?**  
+   - [ ] To process data  
+   - [ ] To store and retrieve data  
+   - [ ] To transmit network signals  
+   - [ ] To execute software instructions  
 
-## **MBR (Master Boot Record)**
-6. What is the purpose of an MBR?
-7. Why is MBR not ideal in terms of corruption?
-8. How many primary partitions can an MBR disk have?
-9. What is the maximum disk size that MBR supports?
+2. **How does an HDD differ from an SSD in terms of operation?**  
+   - [ ] HDDs use magnetic platters, while SSDs use flash memory  
+   - [ ] HDDs are faster than SSDs  
+   - [ ] SSDs require mechanical movement to access data  
+   - [ ] SSDs cannot be used as boot drives  
 
-## **GPT (GUID Partition Table)**
-11. What is the maximum storage capacity GPT supports?
-12. How does GPT improve redundancy compared to MBR?
-13. Where is the bootloader stored in a GPT partitioned system?
-14. How does Windows allow users to view partitions with GPT?
-15. What tool would you use to manage GPT partitions on Linux?
+3. **What command would you use to list all block devices on a Linux system?**  
+   - [ ] `lsblk`  
+   - [ ] `df -h`  
+   - [ ] `du -sh`  
+   - [ ] `blkid`  
 
-## **MBR vs GPT**
-16. Which partitioning scheme is best suited for BIOS-based systems?
-17. Why does GPT pair with UEFI better than MBR?
-18. What is a key advantage of GPT’s redundancy system?
-19. Which partitioning scheme supports partitions larger than 2TB?
-20. What command would you use to check if a disk uses MBR or GPT?
+# MBR (Master Boot Record)
+4. **What is the purpose of an MBR?**  
+   - [ ] To store user files  
+   - [ ] To manage RAM allocation  
+   - [ ] To hold partition information and bootloader  
+   - [ ] To provide file encryption  
 
-## **Partition Management**
-26. What tool supports both MBR and GPT partitioning?
-27. What is the difference between `fdisk`, `gdisk`, and `parted`?
-28. Why does `parted` apply changes immediately, unlike `fdisk` and `gdisk`?
-29. What command initializes a new GPT partition table on a disk?
-30. How can you list all partitions on `/dev/xvda`?
+5. **Why is MBR not ideal in terms of corruption?**  
+   - [ ] It has no redundancy  
+   - [ ] It cannot store bootloaders  
+   - [ ] It supports too many partitions  
+   - [ ] It only works on SSDs  
 
-## **Storage & Measurement**
-35. How does a file system help organize stored data?
+6. **How many primary partitions can an MBR disk have?**  
+   - [ ] 2  
+   - [ ] 4  
+   - [ ] 6  
+   - [ ] 8  
 
-## **File Systems**
-36. What is the root of a filesystem in Windows?
-37. How does Linux represent disk partitions like `/dev/xvda`?
-38. Name at least three filesystem types?
-40. What filesystem is standard for macOS?
+7. **What is the maximum disk size that MBR supports?**  
+   - [ ] 1 TB  
+   - [ ] 2 TB  
+   - [ ] 4 TB  
+   - [ ] 8 TB  
+
+# GPT (GUID Partition Table)
+8. **What is the maximum storage capacity GPT supports?**  
+   - [ ] 2 TB  
+   - [ ] 16 TB  
+   - [ ] 9.4 ZB  
+   - [ ] 128 PB  
+
+9. **How does GPT improve redundancy compared to MBR?**  
+   - [ ] It stores multiple copies of the partition table  
+   - [ ] It uses more sectors for partitioning  
+   - [ ] It has a built-in error correction system  
+   - [ ] It does not require a bootloader  
+
+10. **Where is the bootloader stored in a GPT-partitioned system?**  
+   - [ ] In the primary partition  
+   - [ ] In the EFI System Partition (ESP)  
+   - [ ] In the last sector of the disk  
+   - [ ] In the master boot record  
+
+11. **How does Windows allow users to view partitions with GPT?**  
+   - [ ] Using `diskpart` and Disk Management  
+   - [ ] Through the command `lsblk`  
+   - [ ] Using BIOS settings  
+   - [ ] GPT partitions are not viewable in Windows  
+
+12. **What tool would you use to manage GPT partitions on Linux?**  
+   - [ ] `fdisk`  
+   - [ ] `gdisk`  
+   - [ ] `mkfs`  
+   - [ ] `grub-install`  
+
+# MBR vs GPT
+13. **Which partitioning scheme is best suited for BIOS-based systems?**  
+   - [ ] GPT  
+   - [ ] MBR  
+   - [ ] LVM  
+   - [ ] FAT32  
+
+14. **Why does GPT pair with UEFI better than MBR?**  
+   - [ ] It is faster  
+   - [ ] It supports more boot options  
+   - [ ] It uses less storage  
+   - [ ] It encrypts the bootloader  
+
+15. **What is a key advantage of GPT’s redundancy system?**  
+   - [ ] It has built-in error correction  
+   - [ ] It stores backup partition tables  
+   - [ ] It prevents OS corruption  
+   - [ ] It allows infinite partitions  
+
+16. **Which partitioning scheme supports partitions larger than 2TB?**  
+   - [ ] MBR  
+   - [ ] GPT  
+   - [ ] FAT32  
+   - [ ] NTFS  
+
+17. **What command would you use to check if a disk uses MBR or GPT?**  
+   - [ ] `lsblk`  
+   - [ ] `parted -l`  
+   - [ ] `df -h`  
+   - [ ] `du -sh`  
+
+# Partition Management
+18. **What tool supports both MBR and GPT partitioning?**  
+   - [ ] `fdisk`  
+   - [ ] `gdisk`  
+   - [ ] `parted`  
+   - [ ] `mkfs`  
+
+19. **What is the difference between fdisk, gdisk, and parted?**  
+   - [ ] `fdisk` is for MBR, `gdisk` is for GPT, and `parted` supports both  
+   - [ ] `fdisk` is a filesystem tool, `gdisk` manages RAM, and `parted` is a bootloader  
+   - [ ] They are all equivalent tools  
+   - [ ] Only `parted` supports SSDs  
+
+20. **Why does parted apply changes immediately, unlike fdisk and gdisk?**  
+   - [ ] It buffers operations before executing  
+   - [ ] It modifies disk partitions in real time  
+   - [ ] It stores temporary configurations  
+   - [ ] It uses a different command syntax  
+
+22. **How can you list all partitions on /dev/xvda?**  
+   - [ ] `fdisk -l /dev/xvda`  
+   - [ ] `rm -rf /dev/xvda`  
+   - [ ] `mkfs -l /dev/xvda`  
+   - [ ] `cat /dev/xvda`  
+
+# Storage & Measurement
+23. **How does a file system help organize stored data?**  
+   - [ ] By arranging files in a structured format  
+   - [ ] By compressing all data automatically  
+   - [ ] By encrypting all user files  
+   - [ ] By limiting storage usage  
+
+# File Systems
+24. **What is the root of a filesystem in Windows?**  
+   - [ ] `/root`  
+   - [ ] `C:\`  
+   - [ ] `/home`  
+   - [ ] `E:\`  
+
+25. **How does Linux represent disk partitions like /dev/xvda?**  
+   - [ ] As drive letters (C:, D:, E:)  
+   - [ ] Using device files under `/dev/`  
+   - [ ] With a graphical partition manager only  
+   - [ ] As hidden directories  
+
+26. **Name at least three filesystem types.**  
+   - [ ] NTFS, FAT32, ext4  
+   - [ ] XML, SQL, CSV  
+   - [ ] TCP, UDP, IPFS  
+   - [ ] BIOS, UEFI, GPT  
+
+27. **What filesystem is standard for macOS?**  
+   - [ ] NTFS  
+   - [ ] ext4  
+   - [ ] APFS  
+   - [ ] FAT32  
+
 
