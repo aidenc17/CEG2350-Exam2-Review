@@ -4,33 +4,33 @@
 ## 1. Shells:
 
 **Q1: Which of the following is a shell used in Linux?**  
-a) PowerShell  
-b) bash  
-c) cmd  
-d) Z shell  
+- [ ] PowerShell
+- [ ] bash
+- [ ] cmd
+- [ ]  Z shell  
 
 **Q2: Which shell is commonly used in Windows for command-line operations?**  
-a) zsh  
-b) bash  
-c) PowerShell  
-d) sh  
+- [ ] zsh
+- [ ] bash
+- [ ] PowerShell
+- [ ] sh  
 
 ---
 
 ## 2. SSH (Secure Shell):
 
 **Q6: What is the primary use of SSH?**  
-a) To browse the internet securely  
-b) To establish a secure, encrypted connection to remote systems  
-c) To copy files between systems  
-d) To back up system files  
+- [ ] To browse the internet securely
+- [ ] To establish a secure, encrypted connection to remote systems
+- [ ] To copy files between systems
+- [ ] To back up system files  
 
 
 **Q8: Which of the following is a requirement for SSH authentication?**  
-a) Password encryption  
-b) Public and private key pairs  
-c) Username and domain name 
-d) Static IP address
+- [ ] Password encryption
+- [ ] Public and private key pairs
+- [ ] Username and domain name
+- [ ] Static IP address
 
 
 ---
@@ -38,29 +38,29 @@ d) Static IP address
 ## 3. Files, Directories, and OS Structure:
 
 **Q10: What command is used to list files and directories in Linux?**  
-a) ls  
-b) dir  
-c) list  
-d) show  
+- [ ] ls
+- [ ] dir
+- [ ] list
+- [ ] show  
 
 **Q11: What command creates a new directory in Linux?**  
-a) mkdir  
-b) mkdir -new  
-c) touch  
-d) newdir  
+- [ ] mkdir
+- [ ] mkdir -new  
+- [ ] touch
+- [ ] newdir  
 
 
 **Q13: What command is used to remove a file in Linux?**  
-a) rm  
-b) erase  
-c) del  
-d) remove  
+- [ ] rm
+- [ ] erase
+- [ ] del
+- [ ] remove  
 
 **Q14: Which command in Linux is used to copy files?**  
-a) mv  
-b) cp  
-c) cat  
-d) ln  
+- [ ] mv
+- [ ] cp
+- [ ] cat
+- [ ] ln 
 
 ---
 
