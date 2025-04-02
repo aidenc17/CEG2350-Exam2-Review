@@ -169,7 +169,7 @@ d) Deletes a file
 ---
 # Disk, Partition, and Filesystem Practice Questions
 
-**Keep in mind I have not been to class with you! These are questions to provoke thought and get the wheels tunring!**
+**Keep in mind I have not been to class with you! These are questions to provoke thought and get the wheels turning!**
 **If it does not sound like somehting you covered, you probably haven't!!**
 
 These are all based off my notes when I took the course!
@@ -207,8 +207,6 @@ These are all based off my notes when I took the course!
 30. How can you list all partitions on `/dev/xvda`?
 
 ## **Storage & Measurement**
-31. How many bytes are in a kilobyte?
-34. What is the smallest measurement of data?
 35. How does a file system help organize stored data?
 
 ## **File Systems**
