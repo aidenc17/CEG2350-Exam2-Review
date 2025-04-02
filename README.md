@@ -1,4 +1,6 @@
 # Exam 2 Review
+
+## I highly recomend using your AWS Instance to test all commmands you're not sure of here, and on the actual exams!
 ---
 
 ## 1. Shells:
