@@ -312,6 +312,7 @@ d) Deletes a file
 **Feel free to use past notes or `man` pages on your terminal!!**
 
 **For the next sections, use the text below.**
+**It is in the file `employees.csv`**
 
 ```
 ID,Name,Department,Salary,JoinDate
