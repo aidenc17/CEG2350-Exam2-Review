@@ -1,4 +1,4 @@
-# CEG2350 Midterm 1 Review
+# CEG2350 Midterm 2 Review
 
 A comprehensive practice quiz covering essential Linux/Unix system administration concepts and commands.
 
