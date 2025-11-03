@@ -610,7 +610,7 @@ ID,Name,Department,Salary,JoinDate
    - [ ] `showdisk`
    - [ ] `blkinfo`
 
-**Q91: Write a command to view the partition table of `/dev/sdb`.**
+**Q91: Write a command to view the partition table of `/dev/xvda`.**
 
 **Answer:** ________________________________
 
@@ -786,12 +786,6 @@ ID,Name,Department,Salary,JoinDate
    - [ ] Updates the kernel
    - [ ] Updates only security packages
 
-**Q122: What does `apt upgrade` do?**
-   - [ ] Refreshes package lists
-   - [ ] Installs available updates for packages
-   - [ ] Upgrades the OS version
-   - [ ] Removes old packages
-
 **Q123: Write a command to install a package named "nginx" using apt.**
 
 **Answer:** ________________________________
@@ -855,30 +849,6 @@ ID,Name,Department,Salary,JoinDate
    - [ ] Create an alias
    - [ ] Create a symbolic link
    - [ ] Both b and c
-
----
-
-## 21. Kernel:
-
-**Q138: What is the Linux kernel?**
-   - [ ] The graphical user interface
-   - [ ] The core of the OS that manages hardware and system resources
-   - [ ] A text editor
-   - [ ] The bootloader
-
-**Q139: Select all that are responsibilities of the kernel:**
-   - [ ] Process management
-   - [ ] Memory management
-   - [ ] Device drivers
-   - [ ] Running desktop applications
-   - [ ] Network stack
-   - [ ] Providing web browsers
-
-**Q142: What command displays the current kernel version?**
-   - [ ] `kernel -v`
-   - [ ] `uname -r`
-   - [ ] `cat /etc/kernel`
-   - [ ] `version`
 
 ---
 
@@ -967,9 +937,6 @@ sudo find / -name "*.tmp" -type f -mtime +7 -delete
 
 **Answer:** ________________________________
 
-**Q166: [BONUS] You have a script that needs to check if a directory exists, and if not, create it. Write the bash code to do this.**
-
-**Answer:** ________________________________
 
 **Q167: [BONUS] What is the difference between a hard link and a symbolic link?**
 
