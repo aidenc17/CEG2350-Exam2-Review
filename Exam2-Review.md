@@ -847,7 +847,7 @@ ID,Name,Department,Salary,JoinDate
 **Q137: If you have a program called "shivermetimbers" but want to type "timbers" instead, what's a good solution?**
    - [ ] Rename the file
    - [ ] Create an alias
-   - [ ] Create a symbolic link
+   - [ ] Create a sudo command
    - [ ] Both b and c
 
 ---
