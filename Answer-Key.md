@@ -322,19 +322,112 @@
      - ext4
 
 
-## BIOS and UEFI
+## Linux Boot Process
 
-110. **Q110:**  
-     - Basic Input Output System
+116. **Q116**
+    - b) systemd/init
 
-111. **Q111:**  
-     - In the MBR (first sector of the disk)
+117. **Q117**
+    - b) Bootloader (GRUB)
 
-112. **Q112:**  
-     - UEFI
+118. **Q118**
+    - b) Provides drivers and tools to mount the root filesystem
 
-114. **Q114:**  
-     - MBR
+119. **Q119**
+    - a) BIOS/UEFI → Bootloader → Kernel → Init system
 
-115. **Q115:**  
-     - EFI System Partition (ESP)
+## Package Management
+
+121. **Q121**
+    - b) Refreshes the package list from repositories
+
+123. **Q123**
+    - sudo apt install nginx
+
+
+## PATH and Command Execution
+
+127. **Q127**
+    - b) A list of directories where the system looks for executables
+
+128. **Q128**
+    - d) Both a and b
+
+129. **Q129**
+    - b) Colon (:)
+
+130. **Q130**
+    - b) ./command_name
+
+131. **Q131**
+    - b) Shows the full path to an executable
+
+
+## Aliases and Shortcuts
+
+133. **Q133**
+    - a) A shortcut name for a command or series of commands
+
+134. **Q134**
+    - alias ll='ls -la'
+
+135. **Q135**
+    - ~/.bash_aliases
+
+137. **Q137**
+    - b) Create an alias
+
+## Additional System Commands
+
+143. **Q143**
+    - a) Disk free space
+
+146. **Q146**
+    - b) Searches command history for lines containing "ssh"
+
+147. **Q147**
+    - b) Shows manual pages for commands
+
+## File Operations
+
+149. **Q149**
+    - b) > overwrites; >> appends
+
+152. **Q152**
+    - b) Searches for files and directories
+
+
+## Permissions and Security
+
+159. **Q159**
+    - a) Owner: rw-, Group: r--, Other: r--
+
+160. **Q160**
+    - b) Runs a command with superuser privileges
+
+161. **Q161**
+    - d) All of the above
+
+162. **Q162**
+    - c) Execute
+
+163. **Q163**
+    - a) Adds execute permission for the user (owner)
+
+## BONUS Questions
+
+164. **Q164** 
+    - ls /var/log/*.log | xargs grep "ERROR" | wc -l
+
+165. **Q165**
+    - Explanation:
+        - sudo → runs the command with superuser privileges
+        - find / → searches the entire filesystem
+        - name "*.tmp" → looks for files ending in .tmp
+        - type f → restricts search to files only
+        - mtime +7 → targets files older than 7 days
+        - delete → removes those files
+
+167. **Q167**
+    - Hard Link: Points directly to the same inode (data on disk); both are identical.
+    - Symbolic Link (Symlink): A shortcut that references another file path; breaks if the target is removed.
