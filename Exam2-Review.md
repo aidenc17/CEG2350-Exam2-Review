@@ -1,4 +1,4 @@
-# Exam 2 Review - Complete Study Guide
+# Exam 2 Review - Complete Study Guide 
 
 #### I highly recommend using your AWS Instance to test all commands you're not sure of here, and on the actual exams!
 
